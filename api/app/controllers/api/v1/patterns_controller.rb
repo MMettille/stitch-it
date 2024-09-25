@@ -7,13 +7,14 @@ module Api
     # - POST /api/v1/patterns: Creates a new pattern with the provided parameters (name, author, description).
     # - DELETE /api/v1/patterns/:id: Deletes the pattern with the specified ID.
     class PatternsController < ApplicationController
+      # GET /api/v1/patterns
       def index
         render json: Pattern.all
       end
 
       def create
-        dog = Pattern.create(pattern_params)
-        render json: dog
+        pattern = Pattern.create(pattern_params)
+        render json: pattern
       end
 
       def destroy
