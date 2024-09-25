@@ -1,3 +1,7 @@
+# Table: Patterns
+# :name
+# :author
+# :description
 class CreatePatterns < ActiveRecord::Migration[7.1]
   def change
     create_table :patterns, id: :integer do |t|
