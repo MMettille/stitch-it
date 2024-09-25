@@ -37,3 +37,8 @@ next-env.d.ts
 # Yarn Plug'n'Play files
 .pnp.cjs
 .pnp.loader.mjs
+
+# VSCode stuffs
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
