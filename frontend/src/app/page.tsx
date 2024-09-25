@@ -1,9 +1,9 @@
-import { Button } from "dopamine-design";
+import NavBar from "./NavBar"
 
 export default function Home() {
   return (
     <>
-      <Button>Hi</Button>
+      <NavBar />
     </>
   );
 }
