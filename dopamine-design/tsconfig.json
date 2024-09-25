@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "declarationMap": true,
+      "emitDeclarationOnly": false,
+      "outDir": "dist",
+      "rootDir": "components",
+      "skipLibCheck": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "jsx": "react",
+      "module": "ESNext",
+      "target": "ESNext",
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": false,
+    },
+    "include": ["components/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
+  

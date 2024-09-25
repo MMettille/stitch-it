@@ -1,0 +1,36 @@
+{
+  "name": "dopamine-design",
+  "version": "1.0.0",
+  "main": "components/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "14.2.12",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "typescript": "^5",
+    "webpack": "^5"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.3",
+    "@storybook/addon-interactions": "^8.3.3",
+    "@storybook/addon-links": "^8.3.3",
+    "@storybook/addon-onboarding": "^8.3.3",
+    "@storybook/blocks": "^8.3.3",
+    "@storybook/nextjs": "^8.3.3",
+    "@storybook/react": "^8.3.3",
+    "@storybook/test": "^8.3.3",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
+    "storybook": "^8.3.3"
+  }
+}

@@ -1,5 +1,9 @@
+import { Button } from "dopamine-design";
+
 export default function Home() {
   return (
-    <p>Let's get coding!</p>
+    <>
+      <Button>Hi</Button>
+    </>
   );
 }
