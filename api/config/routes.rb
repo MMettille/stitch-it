@@ -1,5 +1,7 @@
-# frozen_string_literal: true
-
 Rails.application.routes.draw do
-  get 'up' => 'rails/health#show', as: :rails_health_check
+  namespace :api, constraints: { format: 'json' } do
+    namespace :v1 do
+      resources :patterns, only: %i[create index update destroy]
+    end
+  end
 end
